@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	line-height: 1;
 }
@@ -2101,17 +2105,17 @@ input, select, textarea {
 	}
 
 		a.image img {
-			-moz-transition: -moz-transform 0.2s ease;
-			-webkit-transition: -webkit-transform 0.2s ease;
-			-ms-transition: -ms-transform 0.2s ease;
-			transition: transform 0.2s ease;
+			-moz-transition: -moz-transform 0.7s ease;
+			-webkit-transition: -webkit-transform 0.7s ease;
+			-ms-transition: -ms-transform 0.7s ease;
+			transition: transform 0.7s ease;
 		}
 
 		a.image:hover img {
-			-moz-transform: scale(1.075);
-			-webkit-transform: scale(1.075);
-			-ms-transform: scale(1.075);
-			transform: scale(1.075);
+			-moz-transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			transform: scale(1.1);
 		}
 
 /* List */
@@ -2485,7 +2489,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(245, 106, 106, 0.05);
+			background-color: rgba(245, 106, 106, 0.15);
 		}
 
 		input[type="submit"]:active,
@@ -3092,7 +3096,7 @@ input, select, textarea {
 		-webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 		-ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 		transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-		background-color: #f5f6f7;
+		background-color: #f0f0f0;
 		font-size: 0.9em;
 		position: relative;
 		width: 26em;
