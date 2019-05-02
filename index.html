@@ -13,24 +13,6 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-        </script>
-        
 		<title>Andrew Coles</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -46,15 +28,19 @@
 						<div class="inner">
 
 							<!-- Header -->
-                                <div id="header-placeholder" class="header">
-
-                                </div>
-
-                                <script>
-                                $(function(){
-                                  $("#header-placeholder").load("\Header_source.html");
-                                });
-                                </script>
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Andrew Coles</strong><br />portfolio</a>
+									<ul class="icons">
+                                        <br />
+										<li><a href="https://www.linkedin.com/in/andrew-coles-4500b3129/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                        
+                                        <li><a href="https://github.com/apcoles" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                                        
+                                        <li><a href="mailto:andrewpcoles@gmail.com?subject=Portfolio%20Site" class="icon fa-envelope"><span class="label">email</span></a></li>
+                                        
+                                        <li><a href="tel:505-980-2659" class="icon fa-phone"><span class="label">email</span></a></li>
+									</ul>
+								</header>
 
 							<!-- Banner -->
 								<section id="banner">
@@ -161,12 +147,80 @@
 					</div>
 
 				<!-- Sidebar -->
-					<div id="menu-placeholder" class="sidebear"></div>
-                    
-                    <script>
-                    $(function(){
-                     $("#menu-placeholder").load("\Menu_source.html");});
-                    </script>
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">About Me</a></li>
+                                        <li>
+											<span class="opener">Portfolio</span>
+											<ul>
+												<li><a href="#skills">Proj.1</a></li>
+												<li><a href="#">Proj.2</a></li>
+												<li><a href="#">Proj.3</a></li>
+												<li><a href="#">Proj.4</a></li>
+											</ul>
+										</li>
+										<li><a href="resume.html">Resumé</a></li>
+                                        <li><a href="#skills">Skills</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Education</h2>
+									</header>
+									<div class="mini-posts">
+                                        
+										<article>
+											<a href="https://ece.nmsu.edu/undergraduate/" class="image"><img src="images/nmsu_rect.png" alt="BSEE Program Information" /></a>
+                                            <p style="text-align:left;"><strong>New Mexico State University</strong>
+                                            <span style="float:right;">May 2016</span>
+                                            <br />B.S. in Electrical Engineering</p>
+										</article>
+                                        
+										<article>
+											<a href="https://www.ischool.utexas.edu/programs/masters" class="image"><img src="images/texas_rect.png" alt="MSIS Program Information" /></a>
+											<p style="text-align:left;"><strong>The University of Texas at Austin</strong>
+                                            <span style="float:right;">Aug 2019</span>
+                                            <br />M.S. in Information Studies</p>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="fa-envelope-o"><a href="mailto:andrewpcoles@gmail.com?subject=Portfolio%20Site">andrewpcoles@gmail.com</a></li>
+                                        <li class="fa-phone"><a href="tel:505-980-2659">(505) 980-2659</a></li>
+										<li class="fa-home">11701 Metric Blvd.<br />Apt #134<br />
+										Austin, TX 78758</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; apcoles Portfolio. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
 
 			</div>
 
