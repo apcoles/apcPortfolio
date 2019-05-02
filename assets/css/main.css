@@ -3571,3 +3571,18 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+.collapsible {
+    
+}
+
+.content-collapse {
+
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.sidebear {
+    
+}
