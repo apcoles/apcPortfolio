@@ -19,7 +19,19 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
+        
+        <script>
+            function myCollapse() {
+              var x = document.getElementById("div-collapse");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
+        
+        
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -34,7 +46,10 @@
                                         <br />
 										<li><a href="https://www.linkedin.com/in/andrew-coles-4500b3129/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
                                         
-<!--                                        <li><a href="https://github.com/apcoles" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
+<!--
+                                        <li><a href="https://github.com/apcoles" class="icon fa-github">
+                                        <span class="label">GitHub</span></a></li>
+-->
                                         
                                         <li><a href="mailto:andrewpcoles@gmail.com?subject=Portfolio%20Site" class="icon fa-envelope"><span class="label">email</span></a></li>
                                         
@@ -50,13 +65,19 @@
 											<p>about me</p>
 										</header>
                                         
-                                        
-                                        
                                         <p>I'm excited to leverage my engineering, user research, and design skills to create world-class user experiences in every kind of application, from websites and mobile apps to car stereos and door handles — no matter what it is, using it should make you smile. </p>
                                         
+                                        
+                                        
 										<ul class="actions">
-											<li><a href="about-me.html" class="button big">Learn More</a></li>
+											<li><a href="javascript:myCollapse()" class="button">Learn More</a></li>
                                         </ul>
+                                        
+                                        <div id="div-collapse">
+                                        <p>af;klsdjfa;sdl</p>
+                                        <p>askl;dfjafkl;sdjfa;l</p>
+                                        </div>
+                                        
 									</div>
 									<span class="image object">
 										<img src="images/headshot_square.jpg" alt="" />
@@ -166,9 +187,9 @@
 									</header>
 									<ul>
 										<li><a href="index.html">About Me</a></li>
-                                        <li><a href="#projects">Projects</a><li>
-										<li><a href="resume.html">Resumé</a></li>
+                                        <li><a href="#projects">Projects</a></li>
                                         <li><a href="#skills">Skills</a></li>
+										<li><a href="resume.html">Resumé</a></li>
 									</ul>
 								</nav>
 
