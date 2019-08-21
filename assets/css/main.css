@@ -132,6 +132,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
+
 		}
 
 			h2.alt strong {
@@ -2249,6 +2250,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+                background-size: auto;
 			}
 
 			#main > section.two {
