@@ -3,28 +3,21 @@
 
 	/* The sticky class is added to the header with JS when it reaches its scroll position. Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 
-			.sticky {
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: 6;
-			}
-				.sticky + .container {
-					padding-top: 3em;
-				}
-
 			.page-header {
+				width: 100%;
 				margin: 0;
-				text-align: center;
 				background-color: #212528;
 
 			}
 				.page-header h2 {
+					text-align: center;
 					color: #eee;
 					font-weight: 500;
 					letter-spacing: 0.02em;
 				}
-
+			header > div {
+				padding-right: 100px;
+			}
 
 			#icon {
 					float: left;
@@ -92,5 +85,18 @@
 				text-align: center;
 			}
 
+
+			.sticky {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 6;
+			}
+				.sticky + .container {
+					padding-top: 3em;
+				}
+				.sticky > div {
+					padding-right: 0;
+				}
 
 
