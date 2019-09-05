@@ -1,102 +1,118 @@
 
 
 
-	/* The sticky class is added to the header with JS when it reaches its scroll position. Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* The sticky class is added to the header with JS when it reaches its scroll position. Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 
-			.page-header {
-				width: 100%;
-				margin: 0;
-				background-color: #212528;
+.page-header {
+	width: 100%;
+	margin: 0;
+	background-color: #212528;
 
-			}
-				.page-header h2 {
-					text-align: center;
-					color: #eee;
-					font-weight: 500;
-					letter-spacing: 0.02em;
-				}
-			header > div {
-				padding-right: 100px;
-			}
+}
+	.page-header h2 {
+		text-align: center;
+		color: #eee;
+		font-weight: 500;
+		letter-spacing: 0.02em;
+	}
+header > div {
+	padding-right: 100px;
+}
 
-			#icon {
-					float: left;
-					width: 100px;
-					height: auto;
-					padding-bottom: -50px;
-					z-index: 7;
-				}
-
-
-			#main {
-				margin-left:0px;
-				padding:0 0 0 0;
-				background-image: url("/assets/css/images/overlay.png");
-				background-color: rgba(230, 230, 230, 1);
-			}
+#icon {
+		float: left;
+		width: 100px;
+		height: auto;
+		padding-bottom: -50px;
+		z-index: 7;
+	}
 
 
-
-			.container {
-				margin-top: 1.5em;
-			}
-
-
-			.container .header h3 {
-				box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
-				background-color: #4aaf59;
-				color: #eee;
-				text-align: center;
-				font-size: 2em;
-				font-weight: 400;
-			}
+#main {
+	margin-left:0px;
+	padding:0 0 0 0;
+	background-image: url("/assets/css/images/overlay.png");
+	background-color: rgba(230, 230, 230, 1);
+}
 
 
-			.project {
-				box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
-				padding: .5em;
-				background-color: #eee;
-				color: #565656;
-			}
-				.project h4 {
-					font-size-adjust: .4
-				}
-				.project ul {
-					list-style: disc inside none;
-					overflow: auto;
-					margin-bottom: 0.2em;
-				}
-				.project ul .nested {
-					list-style-position: outside;
-					padding-left:2em;
-				}
-				.project p {
-					margin-top: 0.5em;
-					margin-bottom: 1em;
-					overflow: auto;
+.container {
+	margin-top: 1.5em;
+}
 
-				}
-				.project strong {
-					font-weight: 400
-				}
+.container .header h3 {
+	box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
+	color: #eee;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+}
 
-			div.center {
-				margin: 2em 4em 4em 4em;
-				text-align: center;
-			}
+.green {
+	background-color: #4aaf59;
+}
+.green:hover {
+	background-color: #54C862;
+}
 
 
-			.sticky {
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: 6;
-			}
-				.sticky + .container {
-					padding-top: 3em;
-				}
-				.sticky > div {
-					padding-right: 0;
-				}
+.project {
+	box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
+	padding: 1.3em;
+	background-color: #eee;
+	color: #565656;
+}
+	.project h4 {
+		font-size-adjust: .4
+	}
+	.project ul {
+		list-style: disc inside none;
+		overflow: auto;
+		margin-bottom: 0.2em;
+	}
+	.project ul .nested {
+		list-style-position: outside;
+		padding-left:2em;
+	}
+	.project p {
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+		overflow: auto;
+
+	}
+	.project strong {
+		font-weight: 400
+	}
+
+.fit {
+	height: 100%;
+}
+
+.row > * {
+	padding: 40px 0 0 40px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.button {
+	margin: 2em 1em 0em 1em;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 6;
+}
+	.sticky + .container {
+		padding-top: 3em;
+	}
+	.sticky > div {
+		padding-right: 0;
+	}
 
 
