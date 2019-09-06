@@ -68,11 +68,14 @@ header > div {
 	.project ul {
 		list-style: disc inside none;
 		overflow: auto;
-		margin-bottom: 0.2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 	.project ul .nested {
 		list-style-position: outside;
 		padding-left:2em;
+		margin-top: 0em;
+		margin-bottom: 0.2em;
 	}
 	.project p {
 		margin-top: 0.5em;
@@ -81,15 +84,24 @@ header > div {
 
 	}
 	.project strong {
-		font-weight: 400
+		font-size: 1.5em;
+		font-weight: 400;
+		vertical-align: bottom;
 	}
 
 .fit {
 	height: 100%;
+	border-radius: 10px;
+	object-fit: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.noshadow {
+	box-shadow:0 0 0;
 }
 
 .row > * {
-	padding: 40px 0 0 40px;
+	padding: 40px 0 40px 40px;
 }
 
 .center {
