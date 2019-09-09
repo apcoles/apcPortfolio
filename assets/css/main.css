@@ -1995,6 +1995,7 @@
 	/* Item */
 
 		.item {
+			background: #fff;
 			box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
 			margin-bottom: 40px;
 			-moz-transition: box-shadow 0.35s ease-in-out;
@@ -2238,7 +2239,7 @@
 			#main > section {
 				margin: 0;
 				overflow: hidden;
-				padding: 4em 0;
+				padding: 1em 0 4em 0;
 				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 				text-align: center;
 				background-image: url("images/overlay.png");
@@ -2279,8 +2280,6 @@
 					background-size: cover;
 					height: 80%;
 				}
-
-				#
 
 				#main > section.two {
 					background-color: #f5fafa;
