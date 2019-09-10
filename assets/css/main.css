@@ -1960,6 +1960,7 @@
 			color: #fff !important;
 			text-decoration: none;
 			padding: 0.75em 2.5em 0.75em 2.5em;
+		  	margin: 0.8em 0 0.8em 0;
 			background-color: #477599;
 			border: 0;
 			cursor: pointer;
@@ -1997,6 +1998,7 @@
 		.item {
 			background: #fff;
 			box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
+			padding-bottom: 1em;
 			margin-bottom: 40px;
 			-moz-transition: box-shadow 0.35s ease-in-out;
 			-webkit-transition: box-shadow 0.35s ease-in-out;
@@ -2011,7 +2013,7 @@
 			.item header {
 				background: #fff;
 				margin: 0;
-				padding: 1em 1em 2em 1em;
+				padding: 1em 1em 0em 1em;
 				font-size: 0.8em;
 				text-align: left;
 				line-height: 1.75;
