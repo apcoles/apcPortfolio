@@ -54,6 +54,8 @@ header > div {
 
 .container {
 	margin-top: 1.5em;
+	padding: 3em;
+	padding-top: 0;
 }
 
 .container .header h3 {
@@ -62,16 +64,17 @@ header > div {
 	text-align: center;
 	font-size: 2em;
 	font-weight: 400;
+
 }
 
 .project {
 	box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
-	padding: 1.3em;
+	padding: 1.6em;
 	background-color: #eee;
 	color: #565656;
 }
 	.project h4 {
-		font-size-adjust: .4
+		font-size-adjust: .4;
 	}
 	.project ul {
 		list-style: disc inside none;
@@ -112,6 +115,10 @@ header > div {
 	padding: 40px 0 40px 40px;
 }
 
+.smaller .row{
+	padding: 1em 4em 0em 4em;
+}
+
 .center {
 	text-align: center;
 }
@@ -136,4 +143,6 @@ header > div {
 	}
 
 
-
+.shrink-margin {
+	margin: 0 1em 0 0.9em;
+}
