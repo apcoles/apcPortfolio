@@ -5,7 +5,7 @@
 
 .page-header {
 	width: 100%;
-	margin: 0;
+	margin: 0 0 0 0;
 	background-color: #212528;
 
 }
@@ -34,24 +34,6 @@ header > div {
 	background-color: rgba(0,0,0,0.1);
 }
 
-.green {
-	background-color: #4aaf59;
-}
-
-	.green:hover.button{
-		background-color: #5FBB6B;
-	}
-
-
-.light-green {
-	background-color: #8bbea0;
-}
-
-	.light-green:hover.button {
-		background-color: #9DD8BE;
-}
-
-
 .container {
 	margin-top: 1.5em;
 	padding: 3em;
@@ -60,6 +42,7 @@ header > div {
 
 .container .header h3 {
 	box-shadow: 0 0.05em 0.30em 0 rgba(0, 0, 0, 0.05);
+	background-color: #416c8e;
 	color: #eee;
 	text-align: center;
 	font-size: 2em;
